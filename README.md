@@ -7,6 +7,6 @@ Editor - VScode (브라켓도 많이 쓴다고 함)
 
 # 설치 확인
 
-cmd 창에
+cmd 창에  
 node -v  
 npm -v
