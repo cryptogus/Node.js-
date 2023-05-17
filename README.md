@@ -48,4 +48,11 @@ RSAPublicKey ::= SEQUENCE {
     publicExponent    INTEGER   -- e
 }
 -----END RSA PUBLIC KEY-----
+
+'''
+For RSA-CRT
+exponent1         INTEGER,  -- d mod (p-1)
+exponent2         INTEGER,  -- d mod (q-1)
+coefficient       INTEGER,  -- (inverse of q) mod p
+'''
 ```
